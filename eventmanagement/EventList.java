@@ -495,8 +495,8 @@ public class EventList extends JFrame {
    
   private static void sendConfirmationEmail(String toEmail, String eventName, String eventDate, String attendeeName, String ticketNumber) {
     // بيانات الحساب المرسل
-    final String username = "yourEmail@example.com";  // بريد المرسل
-    final String password = "your password";  //كلمة السر        
+    final String username = "yourAddress@example.com";  // بريد المرسل
+    final String password = "your‑smtp‑password";  //كلمة السر        
 
     // إعداد خصائص الاتصال
     Properties props = new Properties();
