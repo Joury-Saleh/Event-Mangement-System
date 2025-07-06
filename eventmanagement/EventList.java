@@ -545,8 +545,8 @@ public class EventList extends JFrame {
 }
   
   private static void sendCancellationEmail(String toEmail, String eventName, String attendeeName, String ticketNumber) {
-    final String username = "programmer.cs.87@gmail.com";
-    final String password = "jkhl tukh uaoe ipyj";
+    final String username = "yourAddress@example.com";
+    final String password = "your‑smtp‑password";
 
     Properties props = new Properties();
     props.put("mail.smtp.auth", "true");
