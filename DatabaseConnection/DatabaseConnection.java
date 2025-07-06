@@ -18,9 +18,10 @@ public class DatabaseConnection {
     public static Connection connect() {
         Connection conn = null;
         try {
-            String url = "jdbc:mysql://localhost:3306/event_management";
-            String user = "root";
-            String password = "root1234"; // ّرها إذا عندك كلمة مرور
+            // Configure these settings in DatabaseConnection.java:
+            String url = "jdbc:mysql://[YOUR_HOST]:[YOUR_PORT]/[YOUR_DATABASE_NAME]";
+            String user = "[YOUR_USERNAME]";
+            String password = "[YOUR_PASSWORD]";
             conn = DriverManager.getConnection(url, user, password);
         } catch (SQLException e) {
             System.out.println("Connection error: " + e.getMessage());
