@@ -8,7 +8,7 @@ import javax.swing.UIManager;
 
 /**
  *
- * @author asus
+ * @author Joury    
  */
 
 public class EVENTMANAGEMENT {
