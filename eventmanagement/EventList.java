@@ -502,8 +502,8 @@ public class EventList extends JFrame {
     Properties props = new Properties();
     props.put("mail.smtp.auth", "true");
     props.put("mail.smtp.starttls.enable", "true");
-    props.put("mail.smtp.host", "smtp.gmail.com");
-    props.put("mail.smtp.port", "587");
+    props.put("mail.smtp.host", "smtp.example.com");//write the host name
+    props.put("mail.smtp.port", "mail-port-number");//write the port number
 
     // إنشاء جلسة بريد إلكتروني
     Session session = Session.getInstance(props, new Authenticator() {
@@ -551,8 +551,9 @@ public class EventList extends JFrame {
     Properties props = new Properties();
     props.put("mail.smtp.auth", "true");
     props.put("mail.smtp.starttls.enable", "true");
-    props.put("mail.smtp.host", "smtp.gmail.com");
-    props.put("mail.smtp.port", "587");
+    props.put("mail.smtp.host", "smtp.example.com");//write the host name
+    props.put("mail.smtp.port", "mail-port-number");//write the port number
+    
 
     Session session = Session.getInstance(props, new Authenticator() {
         @Override
