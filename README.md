@@ -132,7 +132,7 @@ import javax.activation.*;
 
 The email functionality is implemented in the `sendConfirmationEmail` function located in:
 - **File:** `EventList.java`
-- **Line:** 496
+- **Line:** 496 & 547
 
 To configure email settings:
 1. Update SMTP server details in your configuration
