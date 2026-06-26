@@ -255,3 +255,4 @@ SOFTWARE.
 ---
 
 **Note:** This system requires proper configuration of both MySQL database and JavaMail library for full functionality. Please ensure all dependencies are installed before running the application.
+.
